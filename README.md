@@ -29,23 +29,31 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.forEach() returns original array while .map() creates a new array
 
 2. What is the difference between a function and a method?
+a function is attached to the global scope (window) while method is a property of an object with a surrounded by a closure.
 
 3. What is closure?
+It is a group of function enclosed by the lexical environment and the ability to access the outer scope by the inner function
 
 4. Describe the four rules of the 'this' keyword.
+1 Global - where the this is bound to the global scope (window)
+2.Implicit is bound to the value of the object
+3 Explicit uses .call() and apply() method to applied to override the objects context.
+4 New is attached to to the object constructor
 
 5. Why do we need super() in an extended class?
+super is used to call the methods of the parent class
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
